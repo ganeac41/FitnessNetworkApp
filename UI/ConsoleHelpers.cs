@@ -1,4 +1,4 @@
-﻿namespace FitnessNetworkApp.UI;
+﻿namespace FitnessNetworkApp1.UI;
 
 public static class ConsoleHelpers
 {

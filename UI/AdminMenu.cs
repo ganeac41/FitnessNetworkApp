@@ -1,4 +1,4 @@
-﻿using FitnessNetworkApp.UI;
+﻿using FitnessNetworkApp1.UI;
 using FitnessNetworkApp1.Models;
 using FitnessNetworkApp1.Services;
 
