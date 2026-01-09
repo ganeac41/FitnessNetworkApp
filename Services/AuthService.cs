@@ -41,8 +41,6 @@ public class AuthService
         _fitness.SaveAll();
         return user;
     }
-
-    //la asta nu sunt gata
     
     // ======================
     // LOGIN
