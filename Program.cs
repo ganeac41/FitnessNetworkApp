@@ -1,8 +1,19 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using FitnessNetworkApp.UI;
+using FitnessNetworkApp1.Services;
+using FitnessNetworkApp1.Storage;
 
-using FitnessNetworkApp.Models;
+var storage = new JsonFileStorage("Data");
+var fitness = new FitnessService(storage);
+var auth = new AuthService(fitness);
 
-Console.WriteLine("Start OK");
-var a = new AdminUser { Username = "admin" };
-Console.WriteLine(a.Role);
+var u = auth.RegisterClient("test", "123");
+Console.WriteLine("Creat: " + u.Username);
+
+var logged = auth.Login("test", "123");
+Console.WriteLine("Logat: " + logged.Username);
+
+
+
+
