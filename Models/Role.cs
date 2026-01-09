@@ -1,6 +1,2 @@
 ﻿namespace FitnessNetworkApp1.Models;
-
-public class Role
-{
-    
-}
+public enum Role { Admin, Client }
