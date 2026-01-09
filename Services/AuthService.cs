@@ -42,6 +42,8 @@ public class AuthService
         return user;
     }
 
+    //la asta nu sunt gata
+    
     // ======================
     // LOGIN
     // ======================
