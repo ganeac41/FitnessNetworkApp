@@ -41,7 +41,7 @@ public class AuthService
         _fitness.SaveAll();
         return user;
     }
-
+    
     // ======================
     // LOGIN
     // ======================
