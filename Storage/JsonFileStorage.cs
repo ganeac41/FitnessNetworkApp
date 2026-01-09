@@ -36,7 +36,7 @@ public class JsonFileStorage
         }
         catch
         {
-            // fișier lipsă sau corupt → listă goală
+            // fișier lipsă sau corupt → listă goală!!!!!!!!!!!!!1
             return new List<T>();
         }
     }
